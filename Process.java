@@ -4,6 +4,11 @@ public class Process {
     private int burstTime;
     private int remainingTime;
     private int priority;
+private int ioTime;       
+private int ioDuration;   
+
+
+
 
     public Process(int pid, int arrivalTime, int burstTime, int priority) {
         this.pid = pid;
@@ -18,6 +23,9 @@ public class Process {
     public int getBurstTime() { return burstTime; }
     public int getRemainingTime() { return remainingTime; }
     public int getPriority() { return priority; }
+public void incrementPriority() { priority--; }
+public int getIoTime() { return ioTime; }
+public int getIoDuration() { return ioDuration; }
 
     public void setRemainingTime(int remainingTime) { this.remainingTime = remainingTime; }
 

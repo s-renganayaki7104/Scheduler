@@ -1,0 +1,9 @@
+public class BlockedProcess {
+    public Process process;
+    public int endTime;
+
+    public BlockedProcess(Process process, int endTime) {
+        this.process = process;
+        this.endTime = endTime;
+    }
+}
