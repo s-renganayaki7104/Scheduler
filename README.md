@@ -1,4 +1,4 @@
-# Schedule 
+# Scheduler
 
 This project implements and simulates fundamental **CPU Scheduling Algorithms** in Java, designed for operating system process management.  
 
