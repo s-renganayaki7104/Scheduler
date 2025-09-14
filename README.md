@@ -22,8 +22,8 @@ This project implements and simulates fundamental **CPU Scheduling Algorithms** 
 ## How to Run  
 1. Clone the repository:  
    ```bash
-   git clone <your-repo-url>
-   cd <repo-folder>
+   git clone https://github.com/s-renganayaki7104/Scheduler.git
+   cd Scheduler
 2. Compile the file:
    ```bash
    javac *.java
